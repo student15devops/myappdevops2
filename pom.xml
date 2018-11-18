@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -12,11 +13,30 @@
         <url>scm:git@github.com:student15devops/myappdevops.git</url>
         <developerConnection>scm:git@github.com:student15devops/myappdevops.git</developerConnection>
         <tag>MyApp-2.0</tag>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>es.examplecorp</groupId>
+    <artifactId>MyApp</artifactId>
+    <packaging>war</packaging>
+    <version>1.1-SNAPSHOT</version>
+    <name>MyApp Webapp</name>
+    <url>http://maven.apache.org</url>
+    <scm>
+        <connection>scm:git:git@github.com:devops-studentXX/myapp.git</connection>
+        <url>scm:git:git@github.com:devops-studentXX/myapp.git</url>
+        <developerConnection>scm:git:git@github.com:devops-studentXX/myapp.git</developerConnection>
+        <tag>MyApp-1.0</tag>
+>>>>>>> 3c7fab936f5777e2608254eb37bb19078b26973d
     </scm>
 
     <ciManagement>
         <system>jenkins</system>
+<<<<<<< HEAD
         <url>http://devops.examplecorp.es:8080/jenkins</url>
+=======
+        <url>https://devops.examplecorp.es:8080/jenkins</url>
+>>>>>>> 3c7fab936f5777e2608254eb37bb19078b26973d
     </ciManagement>
 
     <distributionManagement>
