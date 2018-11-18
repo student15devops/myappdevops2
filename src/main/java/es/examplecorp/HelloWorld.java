@@ -22,7 +22,7 @@ public class HelloWorld implements SparkApplication {
 
 //        String text = System.getenv("HELLOWORLD");
 
-        String text = "DevOps";
+        String text = "DevOps2";
 
 
         Map map = new HashMap();
