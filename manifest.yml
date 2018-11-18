@@ -1,0 +1,9 @@
+applications:
+- path: target/MyApp.war
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: student21-myapp-bluemix-production
+  host: student21-myapp-bluemix-production
+  disk_quota: 1024M
+  buildpack: java_buildpack
