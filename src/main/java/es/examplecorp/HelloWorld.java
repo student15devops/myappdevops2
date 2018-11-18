@@ -21,7 +21,7 @@ public class HelloWorld implements SparkApplication {
     public void init() {
 
 //        String text = System.getenv("HELLOWORLD");
-        String text = "DevOps";
+        String text = "DevOps 2";
 
         Map map = new HashMap();
         map.put("Name", text);
